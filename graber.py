@@ -1,5 +1,4 @@
 from PyPDF4 import PdfFileReader
-from pandas import Timestamp
 import requests, re
 
 def extract_information(pdf_path):
